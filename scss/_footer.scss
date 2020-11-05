@@ -1,0 +1,56 @@
+.footer{
+    background-color: $color-grey;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding: 28px 0 0 25px;
+    //max-width: 891px;
+    margin: 0 auto;
+    &__group{
+        display: flex;
+        flex-direction: column;
+        margin: 0 35px;
+        max-width: 146px;
+    }
+    &__title{
+        font-family: $garamond;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding-bottom: 11px;
+    }
+    &__item{
+        font-size: 12px;
+        padding: 4px 0;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    &__icon{
+        width: 8px;
+        height: 12px;
+    }
+}
+.fab{
+    padding: 0 10px 0 0;
+    font-size: 17px;
+    &:hover{
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+}
+.copyright{
+    font-size: 9px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 32px 0 14px 0;
+}
+.copyright--mob{
+    display: none;
+}
+
+
+
+
+

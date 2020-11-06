@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="stores__title">We deliver Worldwide</div>
                 <div class="stores__map">
-                    <!-- <img src="img/map-marker.svg" alt="map-marker" class="stores_img">  -->
+                    <div class="stores__map--ie"></div>
                     <svg class="stores__icon">
                         <use xlink:href="img/sprite.svg#geo"></use>
                     </svg>
@@ -47,7 +47,7 @@
                 <form action="" method="get" class="search">
                     <input class="search__input" name="search" placeholder="What are you looking for?" type="search">
                     <button class="search__btn" type="submit">
-                        <!-- <img src="img/search.svg" alt="search"> -->
+                        <div class="search-icon--ie"></div>
                         <svg class="search__icon">
                             <use xlink:href="img/sprite.svg#search"></use>
                         </svg>
@@ -63,6 +63,9 @@
                     <div class="menu__item">stories</div>
                 </div>
             </div>
+
+            <!-- Uncomment block with class "user" and comment "user--active" to see unregistered user panel -->
+
             <!-- <div class="user">
                 <div class="user__sign-in">Sign in</div>
                 <div class="user__line">|</div>
@@ -73,7 +76,7 @@
             </div> -->
             <div class="user user--active">
                 <div class="user__greet">Hi, Angels!</div>
-                <!-- <img src="img/bag.svg" alt=""> -->
+                <div class="user__icon--ie"></div>
                 <svg class="user__icon">
                     <use xlink:href="img/sprite.svg#bag"></use>
                 </svg>
@@ -82,7 +85,46 @@
         </div>
     </header>
 
-    <div class="greeting-img"><img class="greeting-img" src="/img/bg-m.png" alt=""></div>
+    <div class="menu--mob" id="menu--mob">
+        <div class="menu--mob__wrap">
+            <svg class="mob-cross">
+                <use xlink:href="img/sprite.svg#cross"></use>
+            </svg>
+            <div class="logo-mob">Aurora</div>
+            <ul class="menu__item--mob">what's new
+
+                <li class="new">Lorem</li>
+                <li class="new">Lorem ipsum dolor</li>
+            </ul>
+            <ul class="menu__item--mob">women
+                <li class="women">clothing
+                    <ul>
+                        <li class="clothing">T-shirts</li>
+                        <li class="clothing">Sweatshirts</li>
+                        <li class="clothing">Knitwear</li>
+                        <li class="clothing">Jeans</li>
+                        <li class="clothing">Jumpsuits</li>
+                        <li class="clothing">Skirts</li>
+                        <li class="clothing">Dresses</li>
+                    </ul>
+                </li>
+                <li class="women">collections</li>
+                <li class="women">collabs</li>
+                <li class="women">brands</li>
+            </ul>
+            <ul class="menu__item--mob">accessories</ul>
+            <ul class="menu__item--mob">kids</ul>
+            <ul class="menu__item--mob">beauty</ul>
+            <ul class="menu__item--mob">outlet</ul>
+            <ul class="menu__item--mob">stories</ul>
+            <div class="user--mob">
+                <div class="user__sign-in">Sign in</div>
+                <div class="user__line">|</div>
+                <div class="user__register">Register</div>
+            </div>
+        </div>
+    </div>
+
     <div class="greeting">Hello! Welcome to Aurora</div>
 
     <div class="register">

@@ -1,0 +1,70 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .header{
+        top: 0;
+        background: none;
+        background-color: white;
+        padding-bottom: 0;
+        .stores{
+            background-color: $color-grey;
+            &__map--ie{
+            width: 8px;
+            height: 12px;
+            margin-right: 5px;
+            background-image: url(../img/geo.png);
+            }
+            &__icon{
+                display: none;
+            }
+        }
+        .header__logo{
+            color: black;
+        }
+        .header__search-block{
+            background-color: white;
+        }
+        .search{
+            &__input{
+                background: $color-grey;
+                border: 1px solid #F2F2F2;
+                &::placeholder{
+                    color: black;
+                }
+            }
+            &-icon--ie{
+                transform: translateY(6px);
+                height: 16px;
+                width: 16px;
+                background-image: url(../img/search.png);
+            }
+        }
+        .menu{
+            padding: $space 0 ;
+            &__item{
+            color: #000;
+            }
+        }
+        .login{
+            &__sign-in, &__register, &__line{
+                color: black;
+            }
+            &__icon{
+                fill: black;
+            }
+        }
+        .user__icon{
+            display: none;
+        }
+        .user__icon--ie{
+            width: 17px;
+            height: 24px;
+            margin-right: 5px;
+            background-image: url(../img/basket.png);
+        }
+        .user--active{
+            background: none;
+        }
+        .user__greet{
+            color: black;
+        }
+    }
+}

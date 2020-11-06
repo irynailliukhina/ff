@@ -54,12 +54,12 @@ a {
   z-index: 1001;
 }
 
-/* line 8, ../vaimo_test/scss/_header.scss */
+/* line 7, ../vaimo_test/scss/_header.scss */
 .stores .container {
   position: relative;
 }
 
-/* line 11, ../vaimo_test/scss/_header.scss */
+/* line 10, ../vaimo_test/scss/_header.scss */
 .stores__title {
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -69,7 +69,7 @@ a {
   letter-spacing: 0.9px;
 }
 
-/* line 20, ../vaimo_test/scss/_header.scss */
+/* line 18, ../vaimo_test/scss/_header.scss */
 .stores__map {
   position: absolute;
   height: 24px;
@@ -82,29 +82,29 @@ a {
   padding: 0 5px;
 }
 
-/* line 30, ../vaimo_test/scss/_header.scss */
+/* line 28, ../vaimo_test/scss/_header.scss */
 .stores__map:hover {
   cursor: pointer;
   background-color: whitesmoke;
 }
 
-/* line 35, ../vaimo_test/scss/_header.scss */
+/* line 33, ../vaimo_test/scss/_header.scss */
 .stores__icon {
   margin-right: 5px;
   width: 8px;
   height: 12px;
 }
 
-/* line 41, ../vaimo_test/scss/_header.scss */
+/* line 39, ../vaimo_test/scss/_header.scss */
 .header {
   width: 100%;
   position: fixed;
-  z-index: 1001;
+  z-index: 2;
   margin: 0 auto;
   background: linear-gradient(180deg, rgba(51, 51, 51, 0.2) 14.31%, rgba(27, 27, 27, 0.1) 58.6%, rgba(0, 0, 0, 0.0001) 100%);
 }
 
-/* line 48, ../vaimo_test/scss/_header.scss */
+/* line 45, ../vaimo_test/scss/_header.scss */
 .header__nav-block {
   display: flex;
   align-items: flex-start;
@@ -112,7 +112,7 @@ a {
   padding-top: 48px;
 }
 
-/* line 54, ../vaimo_test/scss/_header.scss */
+/* line 51, ../vaimo_test/scss/_header.scss */
 .header__logo {
   font-family: "Poppins", sans-serif;
   font-size: 38px;
@@ -123,13 +123,13 @@ a {
   text-decoration: none;
 }
 
-/* line 62, ../vaimo_test/scss/_header.scss */
+/* line 59, ../vaimo_test/scss/_header.scss */
 .header__logo:hover {
   cursor: pointer;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* line 67, ../vaimo_test/scss/_header.scss */
+/* line 64, ../vaimo_test/scss/_header.scss */
 .header__search-block {
   display: flex;
   flex-direction: column;
@@ -137,7 +137,7 @@ a {
   padding-left: 45px;
 }
 
-/* line 75, ../vaimo_test/scss/_header.scss */
+/* line 72, ../vaimo_test/scss/_header.scss */
 .header-scrolled {
   top: 0;
   background: none;
@@ -145,63 +145,63 @@ a {
   padding-bottom: 0;
 }
 
-/* line 80, ../vaimo_test/scss/_header.scss */
+/* line 77, ../vaimo_test/scss/_header.scss */
 .header-scrolled .stores {
   background-color: #f7f7f7;
 }
 
-/* line 83, ../vaimo_test/scss/_header.scss */
+/* line 80, ../vaimo_test/scss/_header.scss */
 .header-scrolled .header__logo {
   color: black;
 }
 
-/* line 86, ../vaimo_test/scss/_header.scss */
+/* line 83, ../vaimo_test/scss/_header.scss */
 .header-scrolled .header__search-block {
   background-color: white;
 }
 
-/* line 90, ../vaimo_test/scss/_header.scss */
+/* line 87, ../vaimo_test/scss/_header.scss */
 .header-scrolled .search__input {
   background: #f7f7f7;
   border: 1px solid #F2F2F2;
 }
 
-/* line 93, ../vaimo_test/scss/_header.scss */
+/* line 90, ../vaimo_test/scss/_header.scss */
 .header-scrolled .search__input::placeholder {
   color: black;
 }
 
-/* line 97, ../vaimo_test/scss/_header.scss */
+/* line 94, ../vaimo_test/scss/_header.scss */
 .header-scrolled .search__icon {
   fill: black;
 }
 
-/* line 101, ../vaimo_test/scss/_header.scss */
+/* line 98, ../vaimo_test/scss/_header.scss */
 .header-scrolled .menu {
   padding: 24px 0;
 }
 
-/* line 103, ../vaimo_test/scss/_header.scss */
+/* line 100, ../vaimo_test/scss/_header.scss */
 .header-scrolled .menu__item {
   color: #000;
 }
 
-/* line 108, ../vaimo_test/scss/_header.scss */
+/* line 105, ../vaimo_test/scss/_header.scss */
 .header-scrolled .login__sign-in, .header-scrolled .login__register, .header-scrolled .login__line {
   color: black;
 }
 
-/* line 111, ../vaimo_test/scss/_header.scss */
+/* line 108, ../vaimo_test/scss/_header.scss */
 .header-scrolled .login__icon {
   fill: black;
 }
 
-/* line 117, ../vaimo_test/scss/_header.scss */
+/* line 114, ../vaimo_test/scss/_header.scss */
 .search-block--active {
   padding-left: 80px;
 }
 
-/* line 120, ../vaimo_test/scss/_header.scss */
+/* line 117, ../vaimo_test/scss/_header.scss */
 .search {
   position: relative;
   width: 100%;
@@ -210,14 +210,14 @@ a {
   display: flex;
 }
 
-/* line 126, ../vaimo_test/scss/_header.scss */
+/* line 123, ../vaimo_test/scss/_header.scss */
 .search__btn, .search__input {
   border: none;
   outline: none;
   border-radius: 3px;
 }
 
-/* line 131, ../vaimo_test/scss/_header.scss */
+/* line 128, ../vaimo_test/scss/_header.scss */
 .search__input {
   width: 100%;
   height: 48px;
@@ -225,7 +225,7 @@ a {
   padding: 16px 48px 16px 16px;
 }
 
-/* line 136, ../vaimo_test/scss/_header.scss */
+/* line 133, ../vaimo_test/scss/_header.scss */
 .search__input::placeholder {
   color: white;
   font-size: 11px;
@@ -233,9 +233,8 @@ a {
   letter-spacing: 1.5px;
 }
 
-/* line 143, ../vaimo_test/scss/_header.scss */
+/* line 140, ../vaimo_test/scss/_header.scss */
 .search__btn {
-  width: 0;
   transform: translateX(-37px) translateY(2px);
   top: 15px;
   right: 10px;
@@ -243,27 +242,27 @@ a {
   background: none;
 }
 
-/* line 151, ../vaimo_test/scss/_header.scss */
+/* line 147, ../vaimo_test/scss/_header.scss */
 .search__icon {
   height: 17px;
   width: 17px;
   fill: white;
 }
 
-/* line 156, ../vaimo_test/scss/_header.scss */
+/* line 152, ../vaimo_test/scss/_header.scss */
 .search-icon:focus {
   border: none;
   outline: none;
 }
 
-/* line 161, ../vaimo_test/scss/_header.scss */
+/* line 157, ../vaimo_test/scss/_header.scss */
 .user {
   display: flex;
   align-items: center;
   padding-left: 24px;
 }
 
-/* line 165, ../vaimo_test/scss/_header.scss */
+/* line 161, ../vaimo_test/scss/_header.scss */
 .user__sign-in, .user__register, .user__line, .user__greet {
   font-weight: 500;
   text-align: right;
@@ -272,41 +271,41 @@ a {
   letter-spacing: 1.1px;
 }
 
-/* line 171, ../vaimo_test/scss/_header.scss */
+/* line 167, ../vaimo_test/scss/_header.scss */
 .user__sign-in:hover, .user__register:hover, .user__line:hover, .user__greet:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-/* line 176, ../vaimo_test/scss/_header.scss */
+/* line 172, ../vaimo_test/scss/_header.scss */
 .user__sign-in {
   margin-right: 7px;
 }
 
-/* line 179, ../vaimo_test/scss/_header.scss */
+/* line 175, ../vaimo_test/scss/_header.scss */
 .user__register {
   margin: 0 10px 0 7px;
 }
 
-/* line 182, ../vaimo_test/scss/_header.scss */
+/* line 178, ../vaimo_test/scss/_header.scss */
 .user__icon {
   fill: white;
   width: 24px;
   height: 24px;
 }
 
-/* line 186, ../vaimo_test/scss/_header.scss */
+/* line 182, ../vaimo_test/scss/_header.scss */
 .user__icon:hover {
   cursor: pointer;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* line 191, ../vaimo_test/scss/_header.scss */
+/* line 187, ../vaimo_test/scss/_header.scss */
 .user__greet {
   margin-right: 13px;
 }
 
-/* line 194, ../vaimo_test/scss/_header.scss */
+/* line 190, ../vaimo_test/scss/_header.scss */
 .user__buy {
   width: 22px;
   height: 22px;
@@ -319,20 +318,20 @@ a {
   font-weight: 600;
 }
 
-/* line 205, ../vaimo_test/scss/_header.scss */
+/* line 201, ../vaimo_test/scss/_header.scss */
 .user--active {
   background-color: #4a4a4a;
   padding-left: 75px;
 }
 
-/* line 210, ../vaimo_test/scss/_header.scss */
+/* line 206, ../vaimo_test/scss/_header.scss */
 .menu {
   display: flex;
   justify-content: center;
   padding: 24px 0;
 }
 
-/* line 214, ../vaimo_test/scss/_header.scss */
+/* line 210, ../vaimo_test/scss/_header.scss */
 .menu__item {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -343,25 +342,25 @@ a {
   letter-spacing: 1.1px;
 }
 
-/* line 222, ../vaimo_test/scss/_header.scss */
+/* line 218, ../vaimo_test/scss/_header.scss */
 .menu__item:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-/* line 228, ../vaimo_test/scss/_header.scss */
+/* line 224, ../vaimo_test/scss/_header.scss */
 .greeting {
   text-align: center;
   font-size: 60px;
   color: white;
   font-weight: 700;
   padding: 345px 0 247px 0;
-  background-image: url(/img/bg.png);
+  background-image: url(../img/bg2.png);
   background-size: cover;
   background-position-y: 24px;
 }
 
-/* line 238, ../vaimo_test/scss/_header.scss */
+/* line 237, ../vaimo_test/scss/_header.scss */
 .block-menu__toggler {
   width: 20px;
   height: 19px;
@@ -370,90 +369,73 @@ a {
   justify-content: space-around;
 }
 
-/* line 245, ../vaimo_test/scss/_header.scss */
+/* line 244, ../vaimo_test/scss/_header.scss */
 .block-menu__toggler-line {
   width: 20px;
   height: 3px;
   background-color: #ffffff;
 }
 
-/* line 250, ../vaimo_test/scss/_header.scss */
-.block-menu__toggler--open .block-menu__toggler-line:nth-child(1) {
-  -webkit-transform: rotate(45deg) translateY(24px);
-  transform: rotate(45deg) translateY(24px);
-}
-
-/* line 254, ../vaimo_test/scss/_header.scss */
-.block-menu__toggler--open .block-menu__toggler-line:nth-child(2) {
-  display: none;
-}
-
-/* line 257, ../vaimo_test/scss/_header.scss */
-.block-menu__toggler--open .block-menu__toggler-line:nth-child(3) {
-  -webkit-transform: rotate(-45deg) translateY(-24px);
-  transform: rotate(-45deg) translateY(-24px);
-}
-
-/* line 261, ../vaimo_test/scss/_header.scss */
+/* line 249, ../vaimo_test/scss/_header.scss */
 .greeting-img {
   display: none;
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 265, ../vaimo_test/scss/_header.scss */
+  /* line 253, ../vaimo_test/scss/_header.scss */
   .stores {
     display: none;
   }
-  /* line 268, ../vaimo_test/scss/_header.scss */
+  /* line 256, ../vaimo_test/scss/_header.scss */
   .greeting {
     background-position-y: 0;
   }
-  /* line 272, ../vaimo_test/scss/_header.scss */
+  /* line 260, ../vaimo_test/scss/_header.scss */
   .header__logo {
     font-size: 32px;
   }
-  /* line 275, ../vaimo_test/scss/_header.scss */
+  /* line 263, ../vaimo_test/scss/_header.scss */
   .header__nav-block {
     align-items: center;
     padding: 15px 24px;
   }
-  /* line 280, ../vaimo_test/scss/_header.scss */
+  /* line 268, ../vaimo_test/scss/_header.scss */
   .header-scrolled .block-menu__toggler-line {
     background-color: black;
   }
-  /* line 283, ../vaimo_test/scss/_header.scss */
+  /* line 271, ../vaimo_test/scss/_header.scss */
   .header-scrolled .search-icon__img, .header-scrolled .user__icon {
     fill: black;
   }
-  /* line 286, ../vaimo_test/scss/_header.scss */
+  /* line 274, ../vaimo_test/scss/_header.scss */
   .header-scrolled .user--active .user__icon {
     fill: white !important;
   }
-  /* line 290, ../vaimo_test/scss/_header.scss */
+  /* line 278, ../vaimo_test/scss/_header.scss */
   .header__search-block {
     width: 100%;
     max-width: 584px;
   }
-  /* line 295, ../vaimo_test/scss/_header.scss */
+  /* line 283, ../vaimo_test/scss/_header.scss */
   .menu {
     display: none;
   }
-  /* line 298, ../vaimo_test/scss/_header.scss */
+  /* line 286, ../vaimo_test/scss/_header.scss */
   .search {
     width: 100%;
     max-width: 584px;
   }
-  /* line 301, ../vaimo_test/scss/_header.scss */
+  /* line 289, ../vaimo_test/scss/_header.scss */
   .search__input {
     height: 40px;
   }
-  /* line 305, ../vaimo_test/scss/_header.scss */
+  /* line 293, ../vaimo_test/scss/_header.scss */
   .search-block--active {
     padding-left: 0px;
   }
 }
 
-/* line 309, ../vaimo_test/scss/_header.scss */
+/* line 297, ../vaimo_test/scss/_header.scss */
 .mob-btns {
   display: none;
 }
@@ -542,7 +524,7 @@ a {
   margin: 0 auto;
 }
 
-/* line 10, ../vaimo_test/scss/_footer.scss */
+/* line 9, ../vaimo_test/scss/_footer.scss */
 .links__group {
   display: flex;
   flex-direction: column;
@@ -550,7 +532,7 @@ a {
   max-width: 146px;
 }
 
-/* line 16, ../vaimo_test/scss/_footer.scss */
+/* line 15, ../vaimo_test/scss/_footer.scss */
 .links__title {
   font-family: "Cormorant Garamond", serif;
   font-size: 16px;
@@ -559,35 +541,35 @@ a {
   padding-bottom: 11px;
 }
 
-/* line 23, ../vaimo_test/scss/_footer.scss */
+/* line 22, ../vaimo_test/scss/_footer.scss */
 .links__item {
   font-size: 12px;
   padding: 4px 0;
 }
 
-/* line 26, ../vaimo_test/scss/_footer.scss */
+/* line 25, ../vaimo_test/scss/_footer.scss */
 .links__item:hover {
   text-decoration: underline;
 }
 
-/* line 30, ../vaimo_test/scss/_footer.scss */
+/* line 29, ../vaimo_test/scss/_footer.scss */
 .links__icon {
   width: 8px;
   height: 12px;
 }
 
-/* line 35, ../vaimo_test/scss/_footer.scss */
+/* line 34, ../vaimo_test/scss/_footer.scss */
 .fab {
   padding: 0 10px 0 0;
   font-size: 17px;
 }
 
-/* line 38, ../vaimo_test/scss/_footer.scss */
+/* line 37, ../vaimo_test/scss/_footer.scss */
 .fab:hover {
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* line 42, ../vaimo_test/scss/_footer.scss */
+/* line 41, ../vaimo_test/scss/_footer.scss */
 .copyright {
   font-size: 9px;
   line-height: 13px;
@@ -596,7 +578,7 @@ a {
   padding: 32px 0 14px 0;
 }
 
-/* line 49, ../vaimo_test/scss/_footer.scss */
+/* line 48, ../vaimo_test/scss/_footer.scss */
 .copyright--mob {
   display: none;
 }
@@ -613,45 +595,40 @@ a {
   /* line 10, ../vaimo_test/scss/_mobile.scss */
   .header__logo {
     font-size: 27px;
-    padding-left: 15px;
   }
-  /* line 14, ../vaimo_test/scss/_mobile.scss */
+  /* line 13, ../vaimo_test/scss/_mobile.scss */
   .search, .user__greet {
     display: none;
   }
-  /* line 17, ../vaimo_test/scss/_mobile.scss */
+  /* line 16, ../vaimo_test/scss/_mobile.scss */
   .mob-btns {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
   }
-  /* line 22, ../vaimo_test/scss/_mobile.scss */
+  /* line 21, ../vaimo_test/scss/_mobile.scss */
   .greeting {
-    display: none;
+    background-position: center;
+    font-size: 3em;
   }
   /* line 25, ../vaimo_test/scss/_mobile.scss */
-  .greeting-img {
-    display: block;
-    width: 100%;
-  }
-  /* line 29, ../vaimo_test/scss/_mobile.scss */
   .user--active {
     background-color: transparent;
     padding-left: 10px;
   }
-  /* line 33, ../vaimo_test/scss/_mobile.scss */
+  /* line 29, ../vaimo_test/scss/_mobile.scss */
   .search-icon {
     background-color: transparent;
     border: none;
-    margin: 0 10px;
+    margin-left: 10px;
   }
-  /* line 37, ../vaimo_test/scss/_mobile.scss */
+  /* line 33, ../vaimo_test/scss/_mobile.scss */
   .search-icon__img {
     width: 19px;
     height: 19px;
     fill: #FFFFFF;
   }
-  /* line 43, ../vaimo_test/scss/_mobile.scss */
+  /* line 39, ../vaimo_test/scss/_mobile.scss */
   .header__search-block {
     display: none;
     position: absolute;
@@ -659,42 +636,42 @@ a {
     width: 100%;
     top: 45px;
     padding-left: 0px;
+    max-width: none;
   }
-  /* line 51, ../vaimo_test/scss/_mobile.scss */
+  /* line 48, ../vaimo_test/scss/_mobile.scss */
   .search {
     display: flex;
     padding: 11px 0px 16px 16px;
-    width: -webkit-fill-available;
     max-width: 100%;
   }
-  /* line 56, ../vaimo_test/scss/_mobile.scss */
+  /* line 52, ../vaimo_test/scss/_mobile.scss */
   .search__input {
     padding: 16px 48px 16px 10px;
   }
 }
 
 @media screen and (max-width: 993px) {
-  /* line 64, ../vaimo_test/scss/_mobile.scss */
+  /* line 60, ../vaimo_test/scss/_mobile.scss */
   .register {
     margin: 14px auto;
   }
-  /* line 66, ../vaimo_test/scss/_mobile.scss */
+  /* line 62, ../vaimo_test/scss/_mobile.scss */
   .register__btn {
     width: 140px;
   }
 }
 
 @media screen and (max-width: 993px) {
-  /* line 73, ../vaimo_test/scss/_mobile.scss */
+  /* line 69, ../vaimo_test/scss/_mobile.scss */
   .footer .container {
     padding-top: 0;
   }
-  /* line 76, ../vaimo_test/scss/_mobile.scss */
+  /* line 72, ../vaimo_test/scss/_mobile.scss */
   .links {
     flex-direction: column;
     padding: 0;
   }
-  /* line 79, ../vaimo_test/scss/_mobile.scss */
+  /* line 75, ../vaimo_test/scss/_mobile.scss */
   .links__title {
     height: 45px;
     padding: 0 16px;
@@ -702,62 +679,62 @@ a {
     align-items: center;
     justify-content: space-between;
   }
-  /* line 86, ../vaimo_test/scss/_mobile.scss */
+  /* line 82, ../vaimo_test/scss/_mobile.scss */
   .links__group {
     margin: 0;
     min-width: 100%;
     border-bottom: 1px solid #e1e0e1;
   }
-  /* line 90, ../vaimo_test/scss/_mobile.scss */
+  /* line 86, ../vaimo_test/scss/_mobile.scss */
   .links__group--social {
     border: none;
   }
-  /* line 92, ../vaimo_test/scss/_mobile.scss */
+  /* line 88, ../vaimo_test/scss/_mobile.scss */
   .links__group--social .links__title {
     display: none;
   }
-  /* line 95, ../vaimo_test/scss/_mobile.scss */
+  /* line 91, ../vaimo_test/scss/_mobile.scss */
   .links__group--social .links__icons {
     justify-content: center;
     padding: 23px 14px 14px 14px;
   }
-  /* line 98, ../vaimo_test/scss/_mobile.scss */
+  /* line 94, ../vaimo_test/scss/_mobile.scss */
   .links__group--social .links__icons .fab {
     padding: 0 11px;
     font-size: 22px;
     font-weight: 500;
   }
-  /* line 106, ../vaimo_test/scss/_mobile.scss */
+  /* line 102, ../vaimo_test/scss/_mobile.scss */
   .links__icons {
     display: flex !important;
   }
-  /* line 109, ../vaimo_test/scss/_mobile.scss */
+  /* line 105, ../vaimo_test/scss/_mobile.scss */
   .links__item {
     display: none;
     padding: 5px 16px;
   }
-  /* line 114, ../vaimo_test/scss/_mobile.scss */
+  /* line 110, ../vaimo_test/scss/_mobile.scss */
   .links__icon {
     width: 7px;
     height: 12px;
   }
-  /* line 118, ../vaimo_test/scss/_mobile.scss */
+  /* line 114, ../vaimo_test/scss/_mobile.scss */
   .links__group--active {
     padding-bottom: 10px;
   }
-  /* line 120, ../vaimo_test/scss/_mobile.scss */
+  /* line 116, ../vaimo_test/scss/_mobile.scss */
   .links__group--active .links__item {
     display: block;
   }
-  /* line 123, ../vaimo_test/scss/_mobile.scss */
+  /* line 119, ../vaimo_test/scss/_mobile.scss */
   .links__group--active .links__icon {
     transform: rotate(90deg);
   }
-  /* line 128, ../vaimo_test/scss/_mobile.scss */
+  /* line 124, ../vaimo_test/scss/_mobile.scss */
   .copyright {
     display: none;
   }
-  /* line 130, ../vaimo_test/scss/_mobile.scss */
+  /* line 126, ../vaimo_test/scss/_mobile.scss */
   .copyright--mob {
     display: block;
     font-size: 9px;
@@ -767,11 +744,193 @@ a {
   }
 }
 
+/* line 135, ../vaimo_test/scss/_mobile.scss */
+.menu--mob {
+  display: none;
+}
+
 @media screen and (max-width: 993px) {
-  /* line 141, ../vaimo_test/scss/_mobile.scss */
+  /* line 140, ../vaimo_test/scss/_mobile.scss */
+  .logo-mob {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin: 0 auto;
+    padding: 16px 0 14px 0;
+    text-align: center;
+  }
+  /* line 149, ../vaimo_test/scss/_mobile.scss */
   .menu--mob {
+    background-color: rgba(0, 0, 0, 0.32);
+    display: none;
     position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 159, ../vaimo_test/scss/_mobile.scss */
+  .menu--mob__wrap {
     background-color: white;
+    width: 320px;
+    height: 100%;
+  }
+  /* line 163, ../vaimo_test/scss/_mobile.scss */
+  .menu--mob__wrap ul, .menu--mob__wrap li {
+    color: black;
+  }
+  /* line 167, ../vaimo_test/scss/_mobile.scss */
+  .menu__item--mob > li {
+    display: none;
+  }
+  /* line 170, ../vaimo_test/scss/_mobile.scss */
+  .menu__item--mob {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 1px solid #f7f7f7;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  /* line 181, ../vaimo_test/scss/_mobile.scss */
+  .menu__item--mob::after {
+    content: '';
+    width: 8px;
+    height: 12px;
+    background-image: url(../img/arrow.png);
+  }
+  /* line 188, ../vaimo_test/scss/_mobile.scss */
+  .user--mob {
+    display: flex;
+    background-color: #f7f7f7;
+    top: 484px;
+    position: absolute;
+    padding: 14px 0;
+    width: 320px;
+  }
+  /* line 195, ../vaimo_test/scss/_mobile.scss */
+  .user--mob :first-child {
+    padding-left: 14px;
+  }
+  /* line 198, ../vaimo_test/scss/_mobile.scss */
+  .user--mob > * {
+    color: black;
+  }
+  /* line 202, ../vaimo_test/scss/_mobile.scss */
+  .mob-cross {
+    position: absolute;
+    fill: black;
+    padding: 24px 16px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* line 211, ../vaimo_test/scss/_mobile.scss */
+  .greeting {
+    display: block;
+    font-size: 0.1em;
+    padding: 276px 0;
+    color: transparent;
+    background-size: cover;
+    background-position-x: 65%;
+    background-clip: padding-box;
+    margin-bottom: -88px;
+  }
+  /* line 221, ../vaimo_test/scss/_mobile.scss */
+  .register {
+    padding: 14px 0 2px 0;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 2, ../vaimo_test/scss/_ie.scss */
+  .header {
+    top: 0;
+    background: none;
+    background-color: white;
+    padding-bottom: 0;
+  }
+  /* line 7, ../vaimo_test/scss/_ie.scss */
+  .header .stores {
+    background-color: #f7f7f7;
+  }
+  /* line 9, ../vaimo_test/scss/_ie.scss */
+  .header .stores__map--ie {
+    width: 8px;
+    height: 12px;
+    margin-right: 5px;
+    background-image: url(../img/geo.png);
+  }
+  /* line 15, ../vaimo_test/scss/_ie.scss */
+  .header .stores__icon {
+    display: none;
+  }
+  /* line 19, ../vaimo_test/scss/_ie.scss */
+  .header .header__logo {
+    color: black;
+  }
+  /* line 22, ../vaimo_test/scss/_ie.scss */
+  .header .header__search-block {
+    background-color: white;
+  }
+  /* line 26, ../vaimo_test/scss/_ie.scss */
+  .header .search__input {
+    background: #f7f7f7;
+    border: 1px solid #F2F2F2;
+  }
+  /* line 29, ../vaimo_test/scss/_ie.scss */
+  .header .search__input::placeholder {
+    color: black;
+  }
+  /* line 33, ../vaimo_test/scss/_ie.scss */
+  .header .search-icon--ie {
+    transform: translateY(6px);
+    height: 16px;
+    width: 16px;
+    background-image: url(../img/search.png);
+  }
+  /* line 40, ../vaimo_test/scss/_ie.scss */
+  .header .menu {
+    padding: 24px 0;
+  }
+  /* line 42, ../vaimo_test/scss/_ie.scss */
+  .header .menu__item {
+    color: #000;
+  }
+  /* line 47, ../vaimo_test/scss/_ie.scss */
+  .header .login__sign-in, .header .login__register, .header .login__line {
+    color: black;
+  }
+  /* line 50, ../vaimo_test/scss/_ie.scss */
+  .header .login__icon {
+    fill: black;
+  }
+  /* line 54, ../vaimo_test/scss/_ie.scss */
+  .header .user__icon {
+    display: none;
+  }
+  /* line 57, ../vaimo_test/scss/_ie.scss */
+  .header .user__icon--ie {
+    width: 17px;
+    height: 24px;
+    margin-right: 5px;
+    background-image: url(../img/basket.png);
+  }
+  /* line 63, ../vaimo_test/scss/_ie.scss */
+  .header .user--active {
+    background: none;
+  }
+  /* line 66, ../vaimo_test/scss/_ie.scss */
+  .header .user__greet {
+    color: black;
   }
 }
 

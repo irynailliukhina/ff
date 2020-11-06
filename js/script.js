@@ -11,19 +11,15 @@ window.addEventListener('scroll', function () {
 });
 
 // Burger menu
-// document.querySelectorAll(`.search-icon`).forEach((item) =>
-//     item.addEventListener('click', () => {
-
-//         if (item.classList.contains(`search-icon--active`)) {
-//             item.classList.remove(`search-icon--active`)
-//             item.innerHTML = '<svg class="search-icon__img"><use xlink:href="img/sprite.svg#search"></use></svg>'
-//             document.getElementById("search").style.display = "none";
-//         } else {
-//             item.classList.toggle(`search-icon--active`)
-//             item.innerHTML = '<svg class="search-icon__img"><use xlink:href="img/sprite.svg#cross"></use></svg>'
-//             document.getElementById("search").style.display = "block";
-//         }
-// }))
+document.querySelectorAll(`.block-menu__toggler`).forEach((item) =>
+    item.addEventListener('click', () => {
+        document.getElementById("menu--mob").style.display = "block";
+    }
+    ))
+document.querySelectorAll(`.mob-cross`).forEach((item) =>
+    item.addEventListener('click', () => {
+        document.getElementById("menu--mob").style.display = "none";
+    }))
 
 
 //Accordion

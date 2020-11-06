@@ -9,7 +9,6 @@
     }
     .header__logo{
         font-size: 27px;
-        padding-left: 15px;
     }
     .search, .user__greet{
         display: none;
@@ -20,11 +19,8 @@
         align-items: flex-start;
     }
     .greeting{
-        display: none;
-    }
-    .greeting-img{
-        display: block;
-        width: 100%;
+        background-position: center;
+        font-size: 3em;
     }
     .user--active{
         background-color: transparent;
@@ -33,7 +29,7 @@
     .search-icon{
         background-color: transparent;
         border: none;
-        margin: 0 10px;
+        margin-left: 10px;
         &__img{
             width: 19px;
             height: 19px;
@@ -47,11 +43,11 @@
         width: 100%;
         top: 45px;
         padding-left: 0px;
+        max-width: none;
     }
     .search{
         display: flex;
         padding: 11px 0px 16px 16px ;
-        width: -webkit-fill-available;
         max-width: 100%;
         &__input{
             padding: 16px 48px 16px 10px;
@@ -136,10 +132,93 @@
         }
     }
 }
+.menu--mob{
+    display: none;
+}
 
 @media screen and (max-width: 993px){
+    .logo-mob{
+        font-size: 25px;
+        font-family: $poppins;
+        font-weight: 700;
+        letter-spacing: $letter-space;
+        margin: 0 auto;
+        padding: 16px 0 14px 0;
+        text-align: center;
+    }
     .menu--mob{
+        background-color: rgba(0, 0, 0, 0.32);
+        display: none;
         position: absolute;
+        left: 0px;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+    }
+    .menu--mob__wrap{
         background-color: white;
+        width: 320px;
+        height: 100%;
+        ul, li{
+            color: black;
+        }
+    }
+    .menu__item--mob >li{
+        display: none;
+    }
+    .menu__item--mob{
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 1px solid $color-grey;
+    display: flex;
+    align-items: center;
+    margin: 0 auto  ;
+    justify-content: space-between;
+    &::after{
+        content: '';
+        width: 8px;
+        height: 12px;
+            background-image: url(../img/arrow.png);
+    }
+    }
+    .user--mob{
+    display: flex;
+    background-color: $color-grey;
+    top: 484px;
+    position: absolute;
+    padding: 14px 0;
+    width: 320px;
+    & :first-child{
+        padding-left: 14px;
+    }
+    &>*{
+        color: black;
+    }
+}
+    .mob-cross{
+        position: absolute;
+        fill: black;
+        padding: $space 16px;
+        width: 16px;
+        height: 16px;
+    }
+}
+@media screen and (max-width: 480px){
+    .greeting{
+        display: block;
+        font-size: 0.1em;
+        padding: 276px 0;
+        color: transparent;
+        background-size: cover;
+        background-position-x: 65%;
+        background-clip: padding-box;
+        margin-bottom: -88px ;
+    }
+    .register{
+        padding: 14px 0 2px 0;
     }
 }

@@ -4,7 +4,6 @@
     margin-bottom: $space;
     position: fixed;
     z-index: 1001;
-
     .container{
         position: relative;
     }
@@ -15,7 +14,6 @@
         font-weight: 500;
         padding: 4px 0px;
         letter-spacing: $letter-space;
-    
     }
     &__map{
         position: absolute;    
@@ -41,10 +39,9 @@
 .header{
     width: 100%;
     position: fixed;
-    z-index: 1001;
+    z-index: 2;
     margin: 0 auto;
     background: linear-gradient(180deg, rgba(51, 51, 51, 0.2) 14.31%, rgba(27, 27, 27, 0.1) 58.6%, rgba(0, 0, 0, 0.0001) 100%);
-    
     &__nav-block{
         display: flex;
         align-items: flex-start;
@@ -141,7 +138,6 @@
         }
     }
     &__btn {
-        width: 0;
         transform: translateX(-37px) translateY(2px);
         top: 15px;
         right: 10px;
@@ -231,7 +227,10 @@
     color: white;
     font-weight: 700;
     padding: 345px 0 247px 0;
-    background-image: url(/img/bg.png);
+
+//For another background change image to bg2.png
+
+    background-image: url(../img/bg2.png);
     background-size: cover;
     background-position-y: $space;
 }
@@ -247,17 +246,6 @@
     height: 3px;
     background-color: #ffffff;
 }   
-.block-menu__toggler--open .block-menu__toggler-line:nth-child(1) {
-    -webkit-transform: rotate(45deg) translateY(24px);
-    transform: rotate(45deg) translateY(24px);
-}
-.block-menu__toggler--open .block-menu__toggler-line:nth-child(2) {
-    display: none;
-}
-.block-menu__toggler--open .block-menu__toggler-line:nth-child(3) {
-    -webkit-transform: rotate(-45deg) translateY(-24px);
-    transform: rotate(-45deg) translateY(-24px);
-}
 .greeting-img{
     display: none;
 }

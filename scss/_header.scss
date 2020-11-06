@@ -109,8 +109,17 @@
                 fill: black;
             }
         }
+        .user--active{
+            background-color: transparent;
+            padding-left: 75px;
+            .user__greet{
+            color: black;
+            }
+            .user__icon{
+                fill: black;
+            }
     }
-}
+}}
 .search-block--active{
     padding-left: 80px;
 }
@@ -271,9 +280,6 @@
             .search-icon__img, .user__icon{
                 fill: black;
             }
-            .user--active .user__icon{
-                fill: white !important;
-            }
         }
         &__search-block{
             width: 100%;
@@ -297,4 +303,3 @@
 .mob-btns{
     display: none;
 }
-

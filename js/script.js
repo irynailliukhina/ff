@@ -31,9 +31,9 @@ document.querySelectorAll(`.links__title`).forEach((item) =>
         if (parent.classList.contains(`links__group--active`)) {
             parent.classList.remove(`links__group--active`)
         } else {
-            document.querySelectorAll(`links__group`).forEach((item) =>
-                item.classList.remove(`links__group--active`))
-            parent.classList.toggle(`links__group--active`)
+            document.querySelectorAll(`.links__group`).forEach((child) =>
+                child.classList.remove(`links__group--active`))
+            parent.classList.add(`links__group--active`)
         }
     })
 )

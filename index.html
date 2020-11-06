@@ -44,10 +44,10 @@
             </div>
             <a href="#" class="header__logo">Aurora</a>
             <div class="header__search-block" id="search">
-                <form action="" method="get" class="search">
+                <form action="get" method="get" class="search">
                     <input class="search__input" name="search" placeholder="What are you looking for?" type="search">
                     <button class="search__btn" type="submit">
-                        <div class="search-icon--ie"></div>
+                        <span class="search-icon--ie"></span>
                         <svg class="search__icon">
                             <use xlink:href="img/sprite.svg#search"></use>
                         </svg>
@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <!-- Uncomment block with class "user" and comment "user--active" to see unregistered user panel -->
+            <!-- Uncomment block with class "user" and comment user--active to see unregistered user panel -->
 
             <!-- <div class="user">
                 <div class="user__sign-in">Sign in</div>
@@ -91,32 +91,35 @@
                 <use xlink:href="img/sprite.svg#cross"></use>
             </svg>
             <div class="logo-mob">Aurora</div>
-            <ul class="menu__item--mob">what's new
-
-                <li class="new">Lorem</li>
-                <li class="new">Lorem ipsum dolor</li>
-            </ul>
-            <ul class="menu__item--mob">women
-                <li class="women">clothing
-                    <ul>
-                        <li class="clothing">T-shirts</li>
-                        <li class="clothing">Sweatshirts</li>
-                        <li class="clothing">Knitwear</li>
-                        <li class="clothing">Jeans</li>
-                        <li class="clothing">Jumpsuits</li>
-                        <li class="clothing">Skirts</li>
-                        <li class="clothing">Dresses</li>
-                    </ul>
-                </li>
-                <li class="women">collections</li>
-                <li class="women">collabs</li>
-                <li class="women">brands</li>
-            </ul>
-            <ul class="menu__item--mob">accessories</ul>
-            <ul class="menu__item--mob">kids</ul>
-            <ul class="menu__item--mob">beauty</ul>
-            <ul class="menu__item--mob">outlet</ul>
-            <ul class="menu__item--mob">stories</ul>
+            <div class="menu__item--mob">what's new
+                <ul>
+                    <li class="new">Lorem</li>
+                    <li class="new">Lorem ipsum dolor</li>
+                </ul>
+            </div>
+            <div class="menu__item--mob">women
+                <ul>
+                    <li class="women">clothing
+                        <ul>
+                            <li class="clothing">T-shirts</li>
+                            <li class="clothing">Sweatshirts</li>
+                            <li class="clothing">Knitwear</li>
+                            <li class="clothing">Jeans</li>
+                            <li class="clothing">Jumpsuits</li>
+                            <li class="clothing">Skirts</li>
+                            <li class="clothing">Dresses</li>
+                        </ul>
+                    </li>
+                    <li class="women">collections</li>
+                    <li class="women">collabs</li>
+                    <li class="women">brands</li>
+                </ul>
+            </div>
+            <div class="menu__item--mob">accessories</div>
+            <div class="menu__item--mob">kids</div>
+            <div class="menu__item--mob">beauty</div>
+            <div class="menu__item--mob">outlet</div>
+            <div class="menu__item--mob">stories</div>
             <div class="user--mob">
                 <div class="user__sign-in">Sign in</div>
                 <div class="user__line">|</div>
@@ -131,7 +134,7 @@
         <div class="container">
             <div class="register__description">New arrivals. Exclusive previews. First access to sales. Sign up to stay
                 in the know.</div>
-            <form action="" method="get" class="register__form">
+            <form action="get" method="get" class="register__form">
                 <input class="register__input" name="email" placeholder="Your email address" type="email">
                 <button class="register__btn" type="submit">Register</button>
             </form>

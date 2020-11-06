@@ -782,7 +782,7 @@ a {
     color: black;
   }
   /* line 167, ../vaimo_test/scss/_mobile.scss */
-  .menu__item--mob > li {
+  .menu__item--mob > li, ul {
     display: none;
   }
   /* line 170, ../vaimo_test/scss/_mobile.scss */

@@ -30,6 +30,9 @@
             background-color: transparent;
         }
     }
+    .menu{
+        display: none;
+    }
     .search-icon{
         background-color: transparent;
         border: none;
@@ -43,16 +46,19 @@
     .header__search-block{
         display: none;
         position: absolute;
-        left: 0;
-        width: 100%;
+        width: -webkit-fill-available;
+        max-width: 100vw;
         top: 45px;
-        padding-left: 0px;
-        max-width: none;
+        left: 0px;
+        padding: 16px;
     }
     .search{
-        display: flex;
-        padding: 11px 0px 16px 16px ;
-        max-width: 100%;
+        min-width: 100%;
+        display: block;
+        &__btn{
+            top: 10px;
+            right: 10px;
+        }
         &__input{
             padding: 16px 48px 16px 10px;
         }

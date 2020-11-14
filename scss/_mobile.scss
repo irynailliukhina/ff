@@ -1,7 +1,7 @@
 @media screen and (max-width: 993px){
     .header-scrolled{
         .user--active .user__icon{
-            fill: black !important;
+            fill: black;
         }
     }
     .container{
@@ -85,6 +85,12 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            &::after{
+                content: '';
+                width: 8px;
+                height: 12px;
+                    background-image: url(../img/arrow.png);
+            }
         }
         &__group{
             margin: 0;
@@ -120,8 +126,10 @@
             ul, li{
                 display: block;
             }
-            .links__icon{
-                transform: rotate(90deg);
+            & div{
+                &::after{
+                    transform: rotate(90deg);
+                }
             }
         }
     }
@@ -186,7 +194,7 @@
         content: '';
         width: 8px;
         height: 12px;
-            background-image: url(../img/arrow.png);
+        background-image: url(../img/arrow.png);
     }
     }
     .user--mob{
@@ -222,3 +230,4 @@
         padding: 14px 0 2px 0;
     }
 }
+

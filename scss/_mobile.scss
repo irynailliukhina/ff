@@ -18,13 +18,17 @@
         flex-direction: row;
         align-items: flex-start;
     }
-    .greeting{
+    .banner{
         background-position: center;
         font-size: 3em;
     }
-    .user--active{
-        background-color: transparent;
-        padding-left: 10px;
+    .user{
+        margin-top: 0;
+        align-self: unset;   
+        padding-left: 0 !important;     
+        &--active{
+            background-color: transparent;
+        }
     }
     .search-icon{
         background-color: transparent;
@@ -52,6 +56,9 @@
         &__input{
             padding: 16px 48px 16px 10px;
         }
+    }
+    .header__nav-block{
+        align-items: center;
     }
     
 }
@@ -83,6 +90,8 @@
             margin: 0;
             min-width: 100%;
             border-bottom: 1px solid rgb(225, 224, 225);
+            transition: all .3s linear;
+
             &--social{
                 border: none;
                 .links__title{
@@ -99,20 +108,16 @@
                 }
             }
         }
-        &__icons{
-            display: flex !important;
-        }
         &__item{
             display: none;
             padding: 5px 16px;
-            
         }
         &__icon{
             display: block;
         }
         &__group--active{
             padding-bottom: 10px;
-            .links__item{
+            ul, li{
                 display: block;
             }
             .links__icon{
@@ -207,15 +212,11 @@
     }
 }
 @media screen and (max-width: 480px){
-    .greeting{
-        display: block;
+    .banner{
         font-size: 0.1em;
-        padding: 276px 0;
         color: transparent;
         background-size: cover;
         background-position-x: 65%;
-        background-clip: padding-box;
-        margin-bottom: -88px ;
     }
     .register{
         padding: 14px 0 2px 0;

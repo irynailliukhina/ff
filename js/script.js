@@ -38,6 +38,7 @@ document.querySelectorAll(`.links__title`).forEach((item) =>
     })
 )
 
+
 //Search
 
 document.querySelectorAll(`.search-icon`).forEach((item) =>
